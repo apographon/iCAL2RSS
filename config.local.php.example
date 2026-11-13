@@ -1,0 +1,14 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Copy to config.local.php. That file is gitignored.
+ * Do not put hosting logins or calendar passwords here.
+ * Sources must be public http(s) or webcal URLs.
+ */
+return [
+    'base_url' => 'https://example.com/ical-rss',
+    // Optional. If set, HTTP cron requires cron.php?key=…
+    'cron_key' => '',
+];

@@ -1,0 +1,8 @@
+# Local overrides. May contain the public base URL and cron_key.
+/config.local.php
+
+# Last run and generated feeds. Recreated by cron.
+/data/status.json
+/feeds/*.xml
+
+.DS_Store
