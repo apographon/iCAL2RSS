@@ -83,10 +83,3 @@ php cron.php
 Die CLI druckt pro Kalender `OK` oder `FAIL` und endet mit Code 0, wenn jeder Abruf geklappt hat.
 
 Per HTTP antwortet `cron.php` mit JSON. Ist `cron_key` gesetzt, braucht der Aufruf `?key=…`, sonst 403. Die Statusseite listet die Quellen, den letzten Lauf und die Feed-URLs.
-
-## Was nicht ins Git gehört
-
-- `config.local.php`
-- `data/status.json`
-- erzeugte `feeds/*.xml`
-- Hosting-Zugänge, `cron_key`, nicht öffentliche Kalender-URLs mit Zugangsdaten
